@@ -90,7 +90,7 @@ fly secrets set \
   SESSION_SECRET=<random string> \
   LOGIN_ORIGIN="https://<fly app name>.fly.dev" \
   APP_ORIGIN="https://<fly app name>.fly.dev" \
-  DIRECT_URL="postgres://postgres:<PASSWORD>@<fly db name>.flycast:5432" \
+  DATABASE_URL="postgres://postgres:<PASSWORD>@<fly db name>.flycast:5432" \
   FROM_EMAIL="Acme Inc. <hello@yourdomain.com>" \
   REPLY_TO_EMAIL="Acme Inc. <reply@yourdomain.com>" \
   RESEND_API_KEY=<your API Key> \
